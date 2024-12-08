@@ -11,7 +11,7 @@ public class RestoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestoApplication.class, args);
-		log.info(Constants.APPLICATION_START);//test-3
+		log.info(Constants.APPLICATION_START);//test-4
 	}
 
 }
