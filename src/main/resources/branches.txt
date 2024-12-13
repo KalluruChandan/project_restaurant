@@ -1,2 +1,0 @@
-feature/status-check - merged with develop
-feature/logging

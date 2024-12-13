@@ -22,7 +22,7 @@ public class StatusController {
         ApiResponse<String> response = ApiResponse.<String>builder()
                 .success(true)
                 .message(Constants.SUCCESS)
-                .Data(Constants.UP)
+                .data(Constants.UP)
                 .timeStamp(LocalDateTime.now())
                 .build();
         log.info("getAppStatus() exit response {}",response);
